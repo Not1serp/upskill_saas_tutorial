@@ -12,3 +12,4 @@ ActionMailer::Base.smtp_settings = {
   :domain         => 'shielded-fortress-40194.herokuapp.com',
   :authentication => :plain,
 }
+ActionMailer::Base.delivery_method = :smtp
